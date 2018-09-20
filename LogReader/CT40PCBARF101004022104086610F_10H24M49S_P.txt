@@ -1,0 +1,1571 @@
+#########################################################################
+#                                                                       #
+#   SRW Engine Version             : 117.4.1.10 <2017.12.25.1034>	#
+#   Instrument Control DLL Version : 3.4.1.0 <2017.8.15.1740>		#
+#   Module(1) FW Version           : 02.08.51				#
+#   Frequency Extension(1)         : ON					#
+#   Module Type(1)                 : MU887001A				#
+#                                                                       #
+#########################################################################
+
+
+
+#######################
+#   DUT Information   #
+#######################
+DUT1 DLL Type       : Qualcomm WCN39xx
+DUT1 DLL Version    : 1.0.0.8
+
+
+
+CP API: DUT_Interface_On (CP1)
+-----------------------------------------
+ITEM				JUDGEMENT
+RUN BEGIN			PASS
+RUN END				PASS
+-----------------------------------------
+Time : 0.4 (s)
+
+
+GNSS DEVICE (CP1)
+-----------------------------------------
+ITEM				JUDGEMENT
+OPEN BEGIN			PASS
+OPEN END			PASS
+-----------------------------------------
+Time : 0.0 (s)
+
+
+1. GPS (1575.420 MHz) 								WF : CW
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+CN				PASS		35.60		45.0		35.0		-130.0 dBm
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 4.6 (s)
+
+
+GNSS DEVICE (CP1)
+-----------------------------------------
+ITEM				JUDGEMENT
+CLOSE BEGIN			PASS
+CLOSE END			PASS
+-----------------------------------------
+Time : 0.0 (s)
+
+
+WIFI DEVICE (CP1)
+-----------------------------------------
+ITEM				JUDGEMENT
+OPEN BEGIN			PASS
+OPEN END			PASS
+-----------------------------------------
+Time : 16.0 (s)
+
+
+2. WIFI_11B_1M_TX_CH001_ANT1 (2412 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (17.0)		PASS		16.54		18.5		15.5		dBm
+CREST FACTOR			PASS		2.89		30.0		0.0		dB
+EVM				PASS		-14.36		-9.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.4		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.2		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		0.00		NA		NA		dB
+PHASE IMBALANCE			PASS		0.00		NA		NA		Degree
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		12.74		200.0		0.0		MHz
+PSD				PASS		8.68		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.5 (s)
+
+
+3. WIFI_11B_1M_TX_CH006_ANT1 (2437 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (17.0)		PASS		16.65		18.5		15.5		dBm
+CREST FACTOR			PASS		2.70		30.0		0.0		dB
+EVM				PASS		-14.36		-9.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		0.8		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		0.00		NA		NA		dB
+PHASE IMBALANCE			PASS		0.00		NA		NA		Degree
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		12.79		200.0		0.0		MHz
+PSD				PASS		8.85		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.4 (s)
+
+
+4. WIFI_11B_1M_TX_CH013_ANT1 (2472 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (17.0)		PASS		16.57		18.5		15.5		dBm
+CREST FACTOR			PASS		2.56		30.0		0.0		dB
+EVM				PASS		-13.45		-9.0		-999.0		dB
+CENTER FREQ TOL			PASS		0.9		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		0.9		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		0.00		NA		NA		dB
+PHASE IMBALANCE			PASS		0.00		NA		NA		Degree
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		12.60		200.0		0.0		MHz
+PSD				PASS		9.02		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.4 (s)
+
+
+5. WIFI_11B_11M_TX_CH001_ANT1 (2412 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (17.0)		PASS		16.59		18.5		15.5		dBm
+CREST FACTOR			PASS		2.83		30.0		0.0		dB
+EVM				PASS		-13.83		-9.0		-999.0		dB
+CENTER FREQ TOL			PASS		0.8		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		0.8		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.03		NA		NA		dB
+PHASE IMBALANCE			PASS		-0.49		NA		NA		Degree
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		12.55		200.0		0.0		MHz
+PSD				PASS		8.56		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.0 (s)
+
+
+6. WIFI_11B_11M_TX_CH006_ANT1 (2437 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (17.0)		PASS		16.76		18.5		15.5		dBm
+CREST FACTOR			PASS		2.58		30.0		0.0		dB
+EVM				PASS		-13.45		-9.0		-999.0		dB
+CENTER FREQ TOL			PASS		0.8		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		0.8		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.04		NA		NA		dB
+PHASE IMBALANCE			PASS		-0.57		NA		NA		Degree
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		12.45		200.0		0.0		MHz
+PSD				PASS		8.86		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.0 (s)
+
+
+7. WIFI_11B_11M_TX_CH013_ANT1 (2472 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (17.0)		PASS		16.70		18.5		15.5		dBm
+CREST FACTOR			PASS		2.42		30.0		0.0		dB
+EVM				PASS		-12.21		-9.0		-999.0		dB
+CENTER FREQ TOL			PASS		0.7		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		0.7		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.08		NA		NA		dB
+PHASE IMBALANCE			PASS		0.90		NA		NA		Degree
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		12.35		200.0		0.0		MHz
+PSD				PASS		8.99		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.7 (s)
+
+
+8. WIFI_11G_6M_TX_CH001_ANT1 (2412 MHz) (ALV : OFF) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (16.0)		PASS		15.54		17.5		14.5		dBm
+CREST FACTOR			PASS		7.17		30.0		0.0		dB
+EVM (FP)			PASS		-30.2		-5.0		-999.0		dB
+CENTER FREQ TOL			PASS		0.7		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		0.7		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		0.07		NA		NA		dB
+PHASE IMBALANCE			PASS		0.54		NA		NA		Degree
+PHASE ERROR			PASS		0.53		NA		NA		Degree
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		16.50		200.0		0.0		MHz
+PSD				PASS		3.65		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.5 (s)
+
+
+9. WIFI_11G_6M_TX_CH007_ANT1 (2442 MHz) (ALV : OFF) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (16.0)		PASS		15.57		17.5		14.5		dBm
+CREST FACTOR			PASS		6.65		30.0		0.0		dB
+EVM (FP)			PASS		-27.8		-5.0		-999.0		dB
+CENTER FREQ TOL			PASS		0.7		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		0.6		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		0.00		NA		NA		dB
+PHASE IMBALANCE			PASS		0.54		NA		NA		Degree
+PHASE ERROR			PASS		0.44		NA		NA		Degree
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		16.50		200.0		0.0		MHz
+PSD				PASS		4.31		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.0 (s)
+
+
+10. WIFI_11G_6M_TX_CH013_ANT1 (2472 MHz) (ALV : OFF) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (16.0)		PASS		15.45		17.5		14.5		dBm
+CREST FACTOR			PASS		6.91		30.0		0.0		dB
+EVM (FP)			PASS		-26.0		-5.0		-999.0		dB
+CENTER FREQ TOL			PASS		0.7		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		0.6		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.01		NA		NA		dB
+PHASE IMBALANCE			PASS		0.58		NA		NA		Degree
+PHASE ERROR			PASS		0.61		NA		NA		Degree
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		16.46		200.0		0.0		MHz
+PSD				PASS		4.25		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.0 (s)
+
+
+11. WIFI_11G_54M_TX_CH001_ANT1 (2412 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (13.0)		PASS		12.69		14.5		11.5		dBm
+CREST FACTOR			PASS		8.82		30.0		0.0		dB
+EVM (FP)			PASS		-32.7		-25.0		-999.0		dB
+CENTER FREQ TOL			PASS		0.9		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.0		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		0.04		NA		NA		dB
+PHASE IMBALANCE			PASS		0.75		NA		NA		Degree
+PHASE ERROR			PASS		0.48		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-45.48		-15.0		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		16.46		200.0		0.0		MHz
+PSD				PASS		1.15		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+12. WIFI_11G_54M_TX_CH006_ANT1 (2437 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (13.0)		PASS		12.79		14.5		11.5		dBm
+CREST FACTOR			PASS		7.92		30.0		0.0		dB
+EVM (FP)			PASS		-34.1		-25.0		-999.0		dB
+CENTER FREQ TOL			PASS		0.9		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		0.1		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		0.01		NA		NA		dB
+PHASE IMBALANCE			PASS		0.80		NA		NA		Degree
+PHASE ERROR			PASS		0.42		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-51.49		-15.0		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		16.41		200.0		0.0		MHz
+PSD				PASS		1.39		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+13. WIFI_11G_54M_TX_CH013_ANT1 (2472 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (13.0)		PASS		12.68		14.5		11.5		dBm
+CREST FACTOR			PASS		8.08		30.0		0.0		dB
+EVM (FP)			PASS		-32.7		-25.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		0.05		NA		NA		dB
+PHASE IMBALANCE			PASS		0.53		NA		NA		Degree
+PHASE ERROR			PASS		0.48		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-49.75		-15.0		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		16.36		200.0		0.0		MHz
+PSD				PASS		1.76		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.4 (s)
+
+
+14. WIFI_11A_6M_TX_CH036_ANT1 (5180 MHz) (ALV : OFF) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (13.0)		PASS		13.20		14.5		11.5		dBm
+CREST FACTOR			PASS		6.05		30.0		0.0		dB
+EVM (FP)			PASS		-28.8		-5.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.05		NA		NA		dB
+PHASE IMBALANCE			PASS		-0.06		NA		NA		Degree
+PHASE ERROR			PASS		0.26		NA		NA		Degree
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		16.55		200.0		0.0		MHz
+PSD				PASS		1.18		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.5 (s)
+
+
+15. WIFI_11A_6M_TX_CH100_ANT1 (5500 MHz) (ALV : OFF) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (13.0)		PASS		12.89		14.5		11.5		dBm
+CREST FACTOR			PASS		7.03		30.0		0.0		dB
+EVM (FP)			PASS		-32.1		-5.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		0.01		NA		NA		dB
+PHASE IMBALANCE			PASS		-0.25		NA		NA		Degree
+PHASE ERROR			PASS		0.26		NA		NA		Degree
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		16.50		200.0		0.0		MHz
+PSD				PASS		0.70		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.0 (s)
+
+
+16. WIFI_11A_6M_TX_CH165_ANT1 (5825 MHz) (ALV : OFF) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (13.0)		PASS		13.93		14.5		11.5		dBm
+CREST FACTOR			PASS		6.02		30.0		0.0		dB
+EVM (FP)			PASS		-27.7		-5.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		0.00		NA		NA		dB
+PHASE IMBALANCE			PASS		0.01		NA		NA		Degree
+PHASE ERROR			PASS		0.28		NA		NA		Degree
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		16.55		200.0		0.0		MHz
+PSD				PASS		1.79		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.0 (s)
+
+
+17. WIFI_11A_54M_TX_CH036_ANT1 (5180 MHz) (ALV : OFF) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (12.0)		PASS		12.08		13.5		10.5		dBm
+CREST FACTOR			PASS		7.01		30.0		0.0		dB
+EVM (FP)			PASS		-30.6		-25.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		2.2		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.04		NA		NA		dB
+PHASE IMBALANCE			PASS		-0.13		NA		NA		Degree
+PHASE ERROR			PASS		0.64		NA		NA		Degree
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		16.46		200.0		0.0		MHz
+PSD				PASS		0.27		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.8 (s)
+
+
+18. WIFI_11A_54M_TX_CH100_ANT1 (5500 MHz) (ALV : OFF) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (12.0)		PASS		11.95		13.5		10.5		dBm
+CREST FACTOR			PASS		7.60		30.0		0.0		dB
+EVM (FP)			PASS		-33.1		-25.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.2		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.01		NA		NA		dB
+PHASE IMBALANCE			PASS		-0.16		NA		NA		Degree
+PHASE ERROR			PASS		0.48		NA		NA		Degree
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		16.46		200.0		0.0		MHz
+PSD				PASS		0.32		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.8 (s)
+
+
+19. WIFI_11A_54M_TX_CH165_ANT1 (5825 MHz) (ALV : OFF) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (12.0)		PASS		12.82		13.5		10.5		dBm
+CREST FACTOR			PASS		6.97		30.0		0.0		dB
+EVM (FP)			PASS		-29.3		-25.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		0.6		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		0.01		NA		NA		dB
+PHASE IMBALANCE			PASS		0.02		NA		NA		Degree
+PHASE ERROR			PASS		0.85		NA		NA		Degree
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		16.41		200.0		0.0		MHz
+PSD				PASS		1.03		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.3 (s)
+
+
+20. WIFI_11N_2G_MCS0_HT40_TX_CH001_ANT1 (2422 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (12.0)		PASS		11.74		13.5		10.5		dBm
+CREST FACTOR			PASS		9.72		30.0		0.0		dB
+EVM (FP)			PASS		-36.6		-5.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.0		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		0.9		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.01		NA		NA		dB
+PHASE IMBALANCE			PASS		0.71		NA		NA		Degree
+PHASE ERROR			PASS		0.48		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-49.37		-20.0		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		36.23		200.0		0.0		MHz
+PSD				PASS		-2.90		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+21. WIFI_11N_2G_MCS0_HT40_TX_CH005_ANT1 (2442 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (12.0)		PASS		11.95		13.5		10.5		dBm
+CREST FACTOR			PASS		9.54		30.0		0.0		dB
+EVM (FP)			PASS		-37.0		-5.0		-999.0		dB
+CENTER FREQ TOL			PASS		0.9		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		0.8		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.02		NA		NA		dB
+PHASE IMBALANCE			PASS		0.89		NA		NA		Degree
+PHASE ERROR			PASS		0.46		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-52.15		-20.0		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		36.13		200.0		0.0		MHz
+PSD				PASS		-2.17		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+22. WIFI_11N_2G_MCS0_HT40_TX_CH009_ANT1 (2462 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (12.0)		PASS		11.83		13.5		10.5		dBm
+CREST FACTOR			PASS		9.32		30.0		0.0		dB
+EVM (FP)			PASS		-36.8		-5.0		-999.0		dB
+CENTER FREQ TOL			PASS		0.8		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		0.8		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.01		NA		NA		dB
+PHASE IMBALANCE			PASS		0.73		NA		NA		Degree
+PHASE ERROR			PASS		0.47		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-46.75		-20.0		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		36.18		200.0		0.0		MHz
+PSD				PASS		-2.12		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+23. WIFI_11N_2G_MCS7_HT40_TX_CH001_ANT1 (2422 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (12.0)		PASS		11.78		13.5		10.5		dBm
+CREST FACTOR			PASS		9.71		30.0		0.0		dB
+EVM (FP)			PASS		-34.5		-27.0		-999.0		dB
+CENTER FREQ TOL			PASS		0.9		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		0.9		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		0.01		NA		NA		dB
+PHASE IMBALANCE			PASS		1.00		NA		NA		Degree
+PHASE ERROR			PASS		0.48		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-50.94		-20.0		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		36.23		200.0		0.0		MHz
+PSD				PASS		-2.35		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+24. WIFI_11N_2G_MCS7_HT40_TX_CH005_ANT1 (2442 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (12.0)		PASS		11.91		13.5		10.5		dBm
+CREST FACTOR			PASS		9.76		30.0		0.0		dB
+EVM (FP)			PASS		-34.9		-27.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.2		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.02		NA		NA		dB
+PHASE IMBALANCE			PASS		0.74		NA		NA		Degree
+PHASE ERROR			PASS		0.36		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-51.33		-20.0		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		36.04		200.0		0.0		MHz
+PSD				PASS		-1.80		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+25. WIFI_11N_2G_MCS7_HT40_TX_CH009_ANT1 (2462 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (12.0)		PASS		11.83		13.5		10.5		dBm
+CREST FACTOR			PASS		9.79		30.0		0.0		dB
+EVM (FP)			PASS		-34.3		-27.0		-999.0		dB
+CENTER FREQ TOL			PASS		0.8		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		2.4		25.0		-25.0		ppm
+AMPLITUDE IMBALANCE		PASS		0.03		NA		NA		dB
+PHASE IMBALANCE			PASS		0.53		NA		NA		Degree
+PHASE ERROR			PASS		0.49		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-51.15		-20.0		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		36.08		200.0		0.0		MHz
+PSD				PASS		-1.90		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+26. WIFI_11N_5G_MCS0_HT40_TX_CH036_ANT1 (5190 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (12.0)		PASS		12.34		13.5		10.5		dBm
+CREST FACTOR			PASS		7.10		30.0		0.0		dB
+EVM (FP)			PASS		-32.3		-5.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.1		20.0		-20.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.08		NA		NA		dB
+PHASE IMBALANCE			PASS		-0.52		NA		NA		Degree
+PHASE ERROR			PASS		0.59		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-38.63		-20.0		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		36.28		200.0		0.0		MHz
+PSD				PASS		-2.67		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+27. WIFI_11N_5G_MCS0_HT40_TX_CH100_ANT1 (5510 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (12.0)		PASS		11.94		13.5		10.5		dBm
+CREST FACTOR			PASS		7.81		30.0		0.0		dB
+EVM (FP)			PASS		-37.0		-5.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.1		20.0		-20.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.03		NA		NA		dB
+PHASE IMBALANCE			PASS		0.21		NA		NA		Degree
+PHASE ERROR			PASS		0.36		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-44.76		-20.0		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		36.23		200.0		0.0		MHz
+PSD				PASS		-3.19		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+28. WIFI_11N_5G_MCS0_HT40_TX_CH157_ANT1 (5795 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (12.0)		PASS		13.13		13.5		10.5		dBm
+CREST FACTOR			PASS		6.97		30.0		0.0		dB
+EVM (FP)			PASS		-31.7		-5.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.0		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.1		20.0		-20.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.07		NA		NA		dB
+PHASE IMBALANCE			PASS		-0.09		NA		NA		Degree
+PHASE ERROR			PASS		0.65		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-52.32		-20.0		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		36.28		200.0		0.0		MHz
+PSD				PASS		-2.08		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+29. WIFI_11N_5G_MCS7_HT40_TX_CH036_ANT1 (5190 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (11.0)		PASS		11.18		12.5		9.5		dBm
+CREST FACTOR			PASS		8.03		30.0		0.0		dB
+EVM (FP)			PASS		-33.4		-27.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.3		20.0		-20.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.00		NA		NA		dB
+PHASE IMBALANCE			PASS		-0.12		NA		NA		Degree
+PHASE ERROR			PASS		0.57		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-41.84		-20.0		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		36.23		200.0		0.0		MHz
+PSD				PASS		-3.55		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+30. WIFI_11N_5G_MCS7_HT40_TX_CH100_ANT1 (5510 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (11.0)		PASS		10.93		12.5		9.5		dBm
+CREST FACTOR			PASS		8.70		30.0		0.0		dB
+EVM (FP)			PASS		-37.2		-27.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.1		20.0		-20.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.00		NA		NA		dB
+PHASE IMBALANCE			PASS		-0.22		NA		NA		Degree
+PHASE ERROR			PASS		0.26		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-45.46		-20.0		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		36.18		200.0		0.0		MHz
+PSD				PASS		-3.56		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+31. WIFI_11N_5G_MCS7_HT40_TX_CH157_ANT1 (5795 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (11.0)		PASS		11.91		12.5		9.5		dBm
+CREST FACTOR			PASS		7.92		30.0		0.0		dB
+EVM (FP)			PASS		-34.3		-27.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.9		20.0		-20.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.03		NA		NA		dB
+PHASE IMBALANCE			PASS		-0.11		NA		NA		Degree
+PHASE ERROR			PASS		0.42		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-50.55		-20.0		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		36.13		200.0		0.0		MHz
+PSD				PASS		-2.84		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+32. WIFI_11AC_MCS0_VHT80_TX_CH036_ANT1 (5210 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (12.5)		PASS		12.58		14.0		11.0		dBm
+CREST FACTOR			PASS		7.43		30.0		0.0		dB
+EVM (FP)			PASS		-28.6		-5.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.0		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.1		20.0		-20.0		ppm
+AMPLITUDE IMBALANCE		PASS		0.01		NA		NA		dB
+PHASE IMBALANCE			PASS		0.07		NA		NA		Degree
+PHASE ERROR			PASS		0.73		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-47.30		-23.8		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		75.73		200.0		0.0		MHz
+PSD				PASS		-4.19		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.4 (s)
+
+
+33. WIFI_11AC_MCS0_VHT80_TX_CH100_ANT1 (5530 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (12.5)		PASS		12.62		14.0		11.0		dBm
+CREST FACTOR			PASS		7.87		30.0		0.0		dB
+EVM (FP)			PASS		-31.5		-5.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.1		20.0		-20.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.03		NA		NA		dB
+PHASE IMBALANCE			PASS		0.01		NA		NA		Degree
+PHASE ERROR			PASS		0.57		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-53.79		-23.8		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		75.78		200.0		0.0		MHz
+PSD				PASS		-4.96		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+34. WIFI_11AC_MCS0_VHT80_TX_CH149_ANT1 (5775 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (12.5)		PASS		13.53		14.0		11.0		dBm
+CREST FACTOR			PASS		7.26		30.0		0.0		dB
+EVM (FP)			PASS		-28.3		-5.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.0		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		1.1		20.0		-20.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.01		NA		NA		dB
+PHASE IMBALANCE			PASS		-0.03		NA		NA		Degree
+PHASE ERROR			PASS		0.74		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-45.82		-23.8		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		75.88		200.0		0.0		MHz
+PSD				PASS		-4.59		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+35. WIFI_11AC_MCS9_VHT80_TX_CH036_ANT1 (5210 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (9.0)			PASS		8.98		10.5		7.5		dBm
+CREST FACTOR			PASS		9.39		30.0		0.0		dB
+EVM (FP)			PASS		-35.5		-32.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		2.7		20.0		-20.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.05		NA		NA		dB
+PHASE IMBALANCE			PASS		0.07		NA		NA		Degree
+PHASE ERROR			PASS		0.44		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-32.74		-23.8		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		75.59		200.0		0.0		MHz
+PSD				PASS		-7.54		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.8 (s)
+
+
+36. WIFI_11AC_MCS9_VHT80_TX_CH100_ANT1 (5530 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (9.0)			PASS		9.01		10.5		7.5		dBm
+CREST FACTOR			PASS		9.66		30.0		0.0		dB
+EVM (FP)			PASS		-38.1		-32.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.3		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		2.2		20.0		-20.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.00		NA		NA		dB
+PHASE IMBALANCE			PASS		-0.02		NA		NA		Degree
+PHASE ERROR			PASS		0.29		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-41.26		-23.8		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		75.63		200.0		0.0		MHz
+PSD				PASS		-8.34		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.8 (s)
+
+
+37. WIFI_11AC_MCS9_VHT80_TX_CH149_ANT1 (5775 MHz) (ALV : OFF) 			
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+AVG POWER (9.0)			PASS		9.96		10.5		7.5		dBm
+CREST FACTOR			PASS		9.04		30.0		0.0		dB
+EVM (FP)			PASS		-36.5		-32.0		-999.0		dB
+CENTER FREQ TOL			PASS		1.1		25.0		-25.0		ppm
+CLK FREQ TOL			PASS		2.0		20.0		-20.0		ppm
+AMPLITUDE IMBALANCE		PASS		-0.01		NA		NA		dB
+PHASE IMBALANCE			PASS		0.11		NA		NA		Degree
+PHASE ERROR			PASS		0.34		NA		NA		Degree
+CENTER FREQ LEAKAGE		PASS		-47.44		-23.8		-999.0		dB
+MASK VIOLATION			PASS		0.00		0.0		NA		%
+OBW				PASS		75.63		200.0		0.0		MHz
+PSD				PASS		-7.80		20.0		-999.0		dBm/MHz
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.3 (s)
+
+
+38. WIFI_11B_1M_RX_CH001_ANT1 (2412 MHz) 					WF : Engine/MV887030A_b_1_1024LC
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -82.0 dBm			PASS		0.0%		8.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 9.1 (s)
+
+
+39. WIFI_11B_1M_RX_CH006_ANT1 (2437 MHz) 					WF : Engine/MV887030A_b_1_1024LC
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -82.0 dBm			PASS		0.0%		8.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 9.1 (s)
+
+
+40. WIFI_11B_1M_RX_CH013_ANT1 (2472 MHz) 					WF : Engine/MV887030A_b_1_1024LC
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -82.0 dBm			PASS		0.0%		8.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 9.1 (s)
+
+
+41. WIFI_11B_11M_RX_CH001_ANT1 (2412 MHz) 					WF : Engine/MV887030A_b_11_1024LC
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -76.0 dBm			PASS		0.0%		8.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.7 (s)
+
+
+42. WIFI_11B_11M_RX_CH006_ANT1 (2437 MHz) 					WF : Engine/MV887030A_b_11_1024LC
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -76.0 dBm			PASS		0.0%		8.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.7 (s)
+
+
+43. WIFI_11B_11M_RX_CH013_ANT1 (2472 MHz) 					WF : Engine/MV887030A_b_11_1024LC
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -76.0 dBm			PASS		0.0%		8.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.6 (s)
+
+
+44. WIFI_11G_6M_RX_CH001_ANT1 (2412 MHz) 					WF : Engine/MV887030A_ag_6_1024C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -82.0 dBm			PASS		0.0%		10.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 2.1 (s)
+
+
+45. WIFI_11G_6M_RX_CH006_ANT1 (2437 MHz) 					WF : Engine/MV887030A_ag_6_1024C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -82.0 dBm			PASS		0.3%		10.0		NA		997 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 2.1 (s)
+
+
+46. WIFI_11G_6M_RX_CH013_ANT1 (2472 MHz) 					WF : Engine/MV887030A_ag_6_1024C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -82.0 dBm			PASS		0.4%		10.0		NA		996 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 2.1 (s)
+
+
+47. WIFI_11G_54M_RX_CH001_ANT1 (2412 MHz) 					WF : Engine/MV887030A_ag_54_1024C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -65.0 dBm			PASS		0.0%		10.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+48. WIFI_11G_54M_RX_CH006_ANT1 (2437 MHz) 					WF : Engine/MV887030A_ag_54_1024C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -65.0 dBm			PASS		0.0%		10.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+49. WIFI_11G_54M_RX_CH013_ANT1 (2472 MHz) 					WF : Engine/MV887030A_ag_54_1024C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -65.0 dBm			PASS		0.0%		10.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+50. WIFI_11A_6M_RX_CH036_ANT1 (5180 MHz) 					WF : Engine/MV887030A_ag_6_1024C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -82.0 dBm			PASS		0.5%		10.0		NA		995 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 2.1 (s)
+
+
+51. WIFI_11A_6M_RX_CH100_ANT1 (5500 MHz) 					WF : Engine/MV887030A_ag_6_1024C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -82.0 dBm			PASS		0.2%		10.0		NA		998 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 2.1 (s)
+
+
+52. WIFI_11A_6M_RX_CH165_ANT1 (5825 MHz) 					WF : Engine/MV887030A_ag_6_1024C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -82.0 dBm			PASS		0.1%		10.0		NA		999 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 2.1 (s)
+
+
+53. WIFI_11A_54M_RX_CH036_ANT1 (5180 MHz) 					WF : Engine/MV887030A_ag_54_1024C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -65.0 dBm			PASS		0.0%		10.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+54. WIFI_11A_54M_RX_CH100_ANT1 (5500 MHz) 					WF : Engine/MV887030A_ag_54_1024C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -65.0 dBm			PASS		0.0%		10.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+55. WIFI_11A_54M_RX_CH165_ANT1 (5825 MHz) 					WF : Engine/MV887030A_ag_54_1024C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -65.0 dBm			PASS		0.0%		10.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.9 (s)
+
+
+56. WIFI_11N_2G_MCS0_HT40_RX_CH001_ANT1 (2422 MHz) 				WF : Engine/MV887030A_n_MCS0_40_1024LLSm_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -79.0 dBm			PASS		0.1%		10.0		NA		999 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.4 (s)
+
+
+57. WIFI_11N_2G_MCS0_HT40_RX_CH005_ANT1 (2442 MHz) 				WF : Engine/MV887030A_n_MCS0_40_1024LLSm_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -79.0 dBm			PASS		0.3%		10.0		NA		997 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.4 (s)
+
+
+58. WIFI_11N_2G_MCS0_HT40_RX_CH009_ANT1 (2462 MHz) 				WF : Engine/MV887030A_n_MCS0_40_1024LLSm_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -79.0 dBm			PASS		0.1%		10.0		NA		999 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.3 (s)
+
+
+59. WIFI_11N_2G_MCS7_HT40_RX_CH001_ANT1 (2422 MHz) 				WF : Engine/MV887030A_n_MCS7_40_1024LLSm_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -61.0 dBm			PASS		0.0%		10.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.8 (s)
+
+
+60. WIFI_11N_2G_MCS7_HT40_RX_CH005_ANT1 (2442 MHz) 				WF : Engine/MV887030A_n_MCS7_40_1024LLSm_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -61.0 dBm			PASS		0.0%		10.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.8 (s)
+
+
+61. WIFI_11N_2G_MCS7_HT40_RX_CH009_ANT1 (2462 MHz) 				WF : Engine/MV887030A_n_MCS7_40_1024LLSm_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -61.0 dBm			PASS		0.0%		10.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.8 (s)
+
+
+62. WIFI_11N_5G_MCS0_HT40_RX_CH036_ANT1 (5190 MHz) 				WF : Engine/MV887030A_n_MCS0_40_1024LLSm_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -79.0 dBm			PASS		0.1%		10.0		NA		999 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.4 (s)
+
+
+63. WIFI_11N_5G_MCS0_HT40_RX_CH100_ANT1 (5510 MHz) 				WF : Engine/MV887030A_n_MCS0_40_1024LLSm_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -79.0 dBm			PASS		0.0%		10.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.4 (s)
+
+
+64. WIFI_11N_5G_MCS0_HT40_RX_CH157_ANT1 (5795 MHz) 				WF : Engine/MV887030A_n_MCS0_40_1024LLSm_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -79.0 dBm			PASS		0.3%		10.0		NA		997 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.4 (s)
+
+
+65. WIFI_11N_5G_MCS7_HT40_RX_CH036_ANT1 (5190 MHz) 				WF : Engine/MV887030A_n_MCS7_40_1024LLSm_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -61.0 dBm			PASS		0.0%		10.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.8 (s)
+
+
+66. WIFI_11N_5G_MCS7_HT40_RX_CH100_ANT1 (5510 MHz) 				WF : Engine/MV887030A_n_MCS7_40_1024LLSm_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -61.0 dBm			PASS		0.0%		10.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.8 (s)
+
+
+67. WIFI_11N_5G_MCS7_HT40_RX_CH157_ANT1 (5795 MHz) 				WF : Engine/MV887030A_n_MCS7_40_1024LLSm_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -61.0 dBm			PASS		0.0%		10.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.8 (s)
+
+
+68. WIFI_11AC_MCS0_VHT80_RX_CH036_ANT1 (5210 MHz) 				WF : Engine/MV887031A_ac_MCS0_80_1024LL_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -76.0 dBm			PASS		0.4%		10.0		NA		996 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.1 (s)
+
+
+69. WIFI_11AC_MCS0_VHT80_RX_CH100_ANT1 (5530 MHz) 				WF : Engine/MV887031A_ac_MCS0_80_1024LL_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -76.0 dBm			PASS		0.4%		10.0		NA		996 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.1 (s)
+
+
+70. WIFI_11AC_MCS0_VHT80_RX_CH149_ANT1 (5775 MHz) 				WF : Engine/MV887031A_ac_MCS0_80_1024LL_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -76.0 dBm			PASS		0.3%		10.0		NA		997 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.1 (s)
+
+
+71. WIFI_11AC_MCS9_VHT80_RX_CH036_ANT1 (5210 MHz) 				WF : Engine/MV887031A_ac_MCS9_80_1024LL_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -51.0 dBm			PASS		0.0%		10.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.8 (s)
+
+
+72. WIFI_11AC_MCS9_VHT80_RX_CH100_ANT1 (5530 MHz) 				WF : Engine/MV887031A_ac_MCS9_80_1024LL_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -51.0 dBm			PASS		0.0%		10.0		NA		1000 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.8 (s)
+
+
+73. WIFI_11AC_MCS9_VHT80_RX_CH149_ANT1 (5775 MHz) 				WF : Engine/MV887031A_ac_MCS9_80_1024LL_EH_C
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PER @ -51.0 dBm			PASS		0.2%		10.0		NA		998 / 1000
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 0.8 (s)
+
+
+WIFI DEVICE (CP1)
+-----------------------------------------
+ITEM				JUDGEMENT
+CLOSE BEGIN			PASS
+CLOSE END			PASS
+-----------------------------------------
+Time : 0.0 (s)
+
+
+BT DEVICE (CP1)
+-----------------------------------------
+ITEM				JUDGEMENT
+OPEN BEGIN			PASS
+OPEN END			PASS
+-----------------------------------------
+Time : 4.0 (s)
+
+
+74. AUTO_BT_DH1_TX_CH000_ANT1 (2402 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PEAK POWER			PASS		8.90		23.0		-999.0		dBm
+AVG POWER (9.0)			PASS		6.41		13.0		2.0		dBm
+DELTA F1 AVG			PASS		153.76		175.0		140.0		KHz
+99.9% DELTA F2 MAX >= 115KHz	PASS		100.00		100.0		99.9		%
+DELTA F2 F1 RATIO		PASS		0.94		999.0		0.8		NA
+ICFT				PASS		3.48		75.0		-75.0		KHz
+CARRIER DRIFT			PASS		-0.20		25.0		-25.0		KHz
+20BW				PASS		0.71		1.0		0.0		MHz
+ACP L5				PASS		-64.07		-40.0		-999.0		dBm
+ACP L4				PASS		-61.85		-40.0		-999.0		dBm
+ACP L3				PASS		-58.93		-40.0		-999.0		dBm
+ACP L2				PASS		-51.31		-20.0		-999.0		dBm
+ACP L1				PASS		-16.47		999.0		-999.0		dBm
+ACP				PASS		8.83		999.0		-999.0		dBm
+ACP U1				PASS		-15.95		999.0		-999.0		dBm
+ACP U2				PASS		-48.11		-20.0		-999.0		dBm
+ACP U3				PASS		-57.84		-40.0		-999.0		dBm
+ACP U4				PASS		-60.86		-40.0		-999.0		dBm
+ACP U5				PASS		-63.95		-40.0		-999.0		dBm
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 3.3 (s)
+
+
+75. AUTO_BT_DH1_TX_CH039_ANT1 (2441 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PEAK POWER			PASS		8.37		23.0		-999.0		dBm
+AVG POWER (9.0)			PASS		8.27		13.0		2.0		dBm
+DELTA F1 AVG			PASS		153.93		175.0		140.0		KHz
+99.9% DELTA F2 MAX >= 115KHz	PASS		100.00		100.0		99.9		%
+DELTA F2 F1 RATIO		PASS		0.94		999.0		0.8		NA
+ICFT				PASS		3.35		75.0		-75.0		KHz
+CARRIER DRIFT			PASS		0.41		25.0		-25.0		KHz
+20BW				PASS		0.71		1.0		0.0		MHz
+ACP L5				PASS		-62.30		-40.0		-999.0		dBm
+ACP L4				PASS		-60.09		-40.0		-999.0		dBm
+ACP L3				PASS		-57.01		-40.0		-999.0		dBm
+ACP L2				PASS		-49.73		-20.0		-999.0		dBm
+ACP L1				PASS		-16.67		999.0		-999.0		dBm
+ACP				PASS		8.44		999.0		-999.0		dBm
+ACP U1				PASS		-16.56		999.0		-999.0		dBm
+ACP U2				PASS		-48.39		-20.0		-999.0		dBm
+ACP U3				PASS		-56.77		-40.0		-999.0		dBm
+ACP U4				PASS		-60.01		-40.0		-999.0		dBm
+ACP U5				PASS		-62.84		-40.0		-999.0		dBm
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.0 (s)
+
+
+76. AUTO_BT_DH1_TX_CH078_ANT1 (2480 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PEAK POWER			PASS		7.55		23.0		-999.0		dBm
+AVG POWER (9.0)			PASS		7.43		13.0		2.0		dBm
+DELTA F1 AVG			PASS		153.78		175.0		140.0		KHz
+99.9% DELTA F2 MAX >= 115KHz	PASS		100.00		100.0		99.9		%
+DELTA F2 F1 RATIO		PASS		0.94		999.0		0.8		NA
+ICFT				PASS		3.75		75.0		-75.0		KHz
+CARRIER DRIFT			PASS		-0.04		25.0		-25.0		KHz
+20BW				PASS		0.71		1.0		0.0		MHz
+ACP L5				PASS		-63.54		-40.0		-999.0		dBm
+ACP L4				PASS		-60.90		-40.0		-999.0		dBm
+ACP L3				PASS		-58.78		-40.0		-999.0		dBm
+ACP L2				PASS		-50.83		-20.0		-999.0		dBm
+ACP L1				PASS		-17.39		999.0		-999.0		dBm
+ACP				PASS		7.60		999.0		-999.0		dBm
+ACP U1				PASS		-17.47		999.0		-999.0		dBm
+ACP U2				PASS		-51.49		-20.0		-999.0		dBm
+ACP U3				PASS		-59.97		-40.0		-999.0		dBm
+ACP U4				PASS		-62.34		-40.0		-999.0		dBm
+ACP U5				PASS		-64.98		-40.0		-999.0		dBm
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.0 (s)
+
+
+77. AUTO_BT_2DH5_TX_CH000_ANT1 (2402 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PEAK POWER			PASS		8.51		23.0		-999.0		dBm
+AVG POWER (9.0)			PASS		6.58		13.0		-2.0		dBm
+REL TX POWER			PASS		-0.60		1.0		-4.0		dB
+INIT FREQ ERR			PASS		3.93		75.0		-75.0		KHz
+RMS DEVM			PASS		0.045		0.2		-999.0		NA
+PEAK DEVM			PASS		0.088		0.3		-999.0		NA
+99% DEVM <= 0.3			PASS		100.00		0.3		-999.0		NA
+BLOCK FREQ ERR			PASS		3.84		75.0		-75.0		KHz
+FREQ ERR			PASS		-0.34		10.0		-10.0		KHz
+DPE				PASS		0.00		1.0		0.0		%
+IN BAND SPURIOUS L5		PASS		-58.45		-40.0		-999.0		dBm
+IN BAND SPURIOUS L4		PASS		-56.23		-40.0		-999.0		dBm
+IN BAND SPURIOUS L3		PASS		-49.48		-40.0		-999.0		dBm
+IN BAND SPURIOUS L2		PASS		-30.75		-20.0		-999.0		dBm
+IN BAND SPURIOUS L1		PASS		-30.87		-20.0		-999.0		dBm
+IN BAND SPURIOUS		PASS		3.05		999.0		-999.0		dBm
+IN BAND SPURIOUS U1		PASS		-31.51		-20.0		-999.0		dBm
+IN BAND SPURIOUS U2		PASS		-29.16		-20.0		-999.0		dBm
+IN BAND SPURIOUS U3		PASS		-50.30		-40.0		-999.0		dBm
+IN BAND SPURIOUS U4		PASS		-54.83		-40.0		-999.0		dBm
+IN BAND SPURIOUS U5		PASS		-57.56		-40.0		-999.0		dBm
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.2 (s)
+
+
+78. AUTO_BT_2DH5_TX_CH039_ANT1 (2441 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PEAK POWER			PASS		7.69		23.0		-999.0		dBm
+AVG POWER (9.0)			PASS		5.57		13.0		-2.0		dBm
+REL TX POWER			PASS		-0.56		1.0		-4.0		dB
+INIT FREQ ERR			PASS		4.00		75.0		-75.0		KHz
+RMS DEVM			PASS		0.040		0.2		-999.0		NA
+PEAK DEVM			PASS		0.081		0.3		-999.0		NA
+99% DEVM <= 0.3			PASS		100.00		0.3		-999.0		NA
+BLOCK FREQ ERR			PASS		3.91		75.0		-75.0		KHz
+FREQ ERR			PASS		-0.30		10.0		-10.0		KHz
+DPE				PASS		0.00		1.0		0.0		%
+IN BAND SPURIOUS L5		PASS		-57.84		-40.0		-999.0		dBm
+IN BAND SPURIOUS L4		PASS		-55.31		-40.0		-999.0		dBm
+IN BAND SPURIOUS L3		PASS		-48.66		-40.0		-999.0		dBm
+IN BAND SPURIOUS L2		PASS		-34.66		-20.0		-999.0		dBm
+IN BAND SPURIOUS L1		PASS		-35.29		-20.0		-999.0		dBm
+IN BAND SPURIOUS		PASS		2.02		999.0		-999.0		dBm
+IN BAND SPURIOUS U1		PASS		-35.65		-20.0		-999.0		dBm
+IN BAND SPURIOUS U2		PASS		-33.05		-20.0		-999.0		dBm
+IN BAND SPURIOUS U3		PASS		-51.30		-40.0		-999.0		dBm
+IN BAND SPURIOUS U4		PASS		-54.00		-40.0		-999.0		dBm
+IN BAND SPURIOUS U5		PASS		-57.69		-40.0		-999.0		dBm
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.1 (s)
+
+
+79. AUTO_BT_2DH5_TX_CH078_ANT1 (2480 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PEAK POWER			PASS		7.11		23.0		-999.0		dBm
+AVG POWER (9.0)			PASS		5.17		13.0		-2.0		dBm
+REL TX POWER			PASS		-0.58		1.0		-4.0		dB
+INIT FREQ ERR			PASS		4.00		75.0		-75.0		KHz
+RMS DEVM			PASS		0.050		0.2		-999.0		NA
+PEAK DEVM			PASS		0.109		0.3		-999.0		NA
+99% DEVM <= 0.3			PASS		100.00		0.3		-999.0		NA
+BLOCK FREQ ERR			PASS		3.99		75.0		-75.0		KHz
+FREQ ERR			PASS		-0.14		10.0		-10.0		KHz
+DPE				PASS		0.00		1.0		0.0		%
+IN BAND SPURIOUS L5		PASS		-57.90		-40.0		-999.0		dBm
+IN BAND SPURIOUS L4		PASS		-54.93		-40.0		-999.0		dBm
+IN BAND SPURIOUS L3		PASS		-49.73		-40.0		-999.0		dBm
+IN BAND SPURIOUS L2		PASS		-31.10		-20.0		-999.0		dBm
+IN BAND SPURIOUS L1		PASS		-31.28		-20.0		-999.0		dBm
+IN BAND SPURIOUS		PASS		1.71		999.0		-999.0		dBm
+IN BAND SPURIOUS U1		PASS		-33.03		-20.0		-999.0		dBm
+IN BAND SPURIOUS U2		PASS		-31.15		-20.0		-999.0		dBm
+IN BAND SPURIOUS U3		PASS		-52.49		-40.0		-999.0		dBm
+IN BAND SPURIOUS U4		PASS		-57.97		-40.0		-999.0		dBm
+IN BAND SPURIOUS U5		PASS		-59.99		-40.0		-999.0		dBm
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.1 (s)
+
+
+80. AUTO_BT_3DH5_TX_CH000_ANT1 (2402 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PEAK POWER			PASS		8.67		23.0		-999.0		dBm
+AVG POWER (9.0)			PASS		6.66		13.0		-2.0		dBm
+REL TX POWER			PASS		-0.57		1.0		-4.0		dB
+INIT FREQ ERR			PASS		4.03		75.0		-75.0		KHz
+RMS DEVM			PASS		0.042		0.2		-999.0		NA
+PEAK DEVM			PASS		0.084		0.3		-999.0		NA
+99% DEVM <= 0.2			PASS		100.00		0.3		-999.0		NA
+BLOCK FREQ ERR			PASS		3.78		75.0		-75.0		KHz
+FREQ ERR			PASS		-0.28		10.0		-10.0		KHz
+DPE				PASS		0.00		1.0		0.0		%
+IN BAND SPURIOUS L5		PASS		-58.23		-40.0		-999.0		dBm
+IN BAND SPURIOUS L4		PASS		-55.45		-40.0		-999.0		dBm
+IN BAND SPURIOUS L3		PASS		-50.19		-40.0		-999.0		dBm
+IN BAND SPURIOUS L2		PASS		-34.99		-20.0		-999.0		dBm
+IN BAND SPURIOUS L1		PASS		-32.31		-20.0		-999.0		dBm
+IN BAND SPURIOUS		PASS		4.05		999.0		-999.0		dBm
+IN BAND SPURIOUS U1		PASS		-32.06		-20.0		-999.0		dBm
+IN BAND SPURIOUS U2		PASS		-33.92		-20.0		-999.0		dBm
+IN BAND SPURIOUS U3		PASS		-49.89		-40.0		-999.0		dBm
+IN BAND SPURIOUS U4		PASS		-55.81		-40.0		-999.0		dBm
+IN BAND SPURIOUS U5		PASS		-58.96		-40.0		-999.0		dBm
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.1 (s)
+
+
+81. AUTO_BT_3DH5_TX_CH039_ANT1 (2441 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PEAK POWER			PASS		7.99		23.0		-999.0		dBm
+AVG POWER (9.0)			PASS		5.65		13.0		-2.0		dBm
+REL TX POWER			PASS		-0.55		1.0		-4.0		dB
+INIT FREQ ERR			PASS		4.07		75.0		-75.0		KHz
+RMS DEVM			PASS		0.041		0.2		-999.0		NA
+PEAK DEVM			PASS		0.081		0.3		-999.0		NA
+99% DEVM <= 0.2			PASS		100.00		0.3		-999.0		NA
+BLOCK FREQ ERR			PASS		3.86		75.0		-75.0		KHz
+FREQ ERR			PASS		-0.27		10.0		-10.0		KHz
+DPE				PASS		0.00		1.0		0.0		%
+IN BAND SPURIOUS L5		PASS		-58.43		-40.0		-999.0		dBm
+IN BAND SPURIOUS L4		PASS		-55.26		-40.0		-999.0		dBm
+IN BAND SPURIOUS L3		PASS		-49.36		-40.0		-999.0		dBm
+IN BAND SPURIOUS L2		PASS		-37.58		-20.0		-999.0		dBm
+IN BAND SPURIOUS L1		PASS		-35.88		-20.0		-999.0		dBm
+IN BAND SPURIOUS		PASS		3.04		999.0		-999.0		dBm
+IN BAND SPURIOUS U1		PASS		-36.40		-20.0		-999.0		dBm
+IN BAND SPURIOUS U2		PASS		-37.71		-20.0		-999.0		dBm
+IN BAND SPURIOUS U3		PASS		-51.86		-40.0		-999.0		dBm
+IN BAND SPURIOUS U4		PASS		-55.94		-40.0		-999.0		dBm
+IN BAND SPURIOUS U5		PASS		-59.24		-40.0		-999.0		dBm
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.1 (s)
+
+
+82. AUTO_BT_3DH5_TX_CH078_ANT1 (2480 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PEAK POWER			PASS		7.24		23.0		-999.0		dBm
+AVG POWER (9.0)			PASS		5.25		13.0		-2.0		dBm
+REL TX POWER			PASS		-0.54		1.0		-4.0		dB
+INIT FREQ ERR			PASS		4.01		75.0		-75.0		KHz
+RMS DEVM			PASS		0.047		0.2		-999.0		NA
+PEAK DEVM			PASS		0.089		0.3		-999.0		NA
+99% DEVM <= 0.2			PASS		100.00		0.3		-999.0		NA
+BLOCK FREQ ERR			PASS		3.94		75.0		-75.0		KHz
+FREQ ERR			PASS		-0.17		10.0		-10.0		KHz
+DPE				PASS		0.00		1.0		0.0		%
+IN BAND SPURIOUS L5		PASS		-58.98		-40.0		-999.0		dBm
+IN BAND SPURIOUS L4		PASS		-55.37		-40.0		-999.0		dBm
+IN BAND SPURIOUS L3		PASS		-49.89		-40.0		-999.0		dBm
+IN BAND SPURIOUS L2		PASS		-34.65		-20.0		-999.0		dBm
+IN BAND SPURIOUS L1		PASS		-32.61		-20.0		-999.0		dBm
+IN BAND SPURIOUS		PASS		2.71		999.0		-999.0		dBm
+IN BAND SPURIOUS U1		PASS		-33.77		-20.0		-999.0		dBm
+IN BAND SPURIOUS U2		PASS		-35.97		-20.0		-999.0		dBm
+IN BAND SPURIOUS U3		PASS		-52.88		-40.0		-999.0		dBm
+IN BAND SPURIOUS U4		PASS		-57.58		-40.0		-999.0		dBm
+IN BAND SPURIOUS U5		PASS		-60.12		-40.0		-999.0		dBm
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.1 (s)
+
+
+83. AUTO_BT_BLE_TX_CH000_ANT1 (2402 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PEAK TO AVG			PASS		0.16		3.0		-999.0		dB
+AVG POWER			PASS		-1.49		10.0		-6.0		dB
+DELTA F1 AVG			PASS		250.16		275.0		225.0		KHz
+99.9% DELTA F2 MAX >= 185KHz	PASS		100.00		100.0		99.9		%
+DELTA F2 F1 RATIO		PASS		0.95		999.0		0.8		NA
+CARRIER DRIFT			PASS		0.17		50.0		-50.0		KHz
+CARRIER FREQ OFFSET		PASS		4.03		150.0		-150.0		KHz
+IN BAND EMISSION L5		PASS		-70.15		-30.0		-999.0		dBm
+IN BAND EMISSION L4		PASS		-68.85		-30.0		-999.0		dBm
+IN BAND EMISSION L3		PASS		-65.70		-30.0		-999.0		dBm
+IN BAND EMISSION L2		PASS		-55.37		-20.0		-999.0		dBm
+IN BAND EMISSION L1		PASS		-21.43		999.0		-999.0		dBm
+IN BAND EMISSION		PASS		-1.38		999.0		-999.0		dBm
+IN BAND EMISSION U1		PASS		-20.79		999.0		-999.0		dBm
+IN BAND EMISSION U2		PASS		-56.13		-20.0		-999.0		dBm
+IN BAND EMISSION U3		PASS		-66.15		-30.0		-999.0		dBm
+IN BAND EMISSION U4		PASS		-69.09		-30.0		-999.0		dBm
+IN BAND EMISSION U5		PASS		-69.73		-30.0		-999.0		dBm
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.0 (s)
+
+
+84. AUTO_BT_BLE_TX_CH020_ANT1 (2442 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PEAK TO AVG			PASS		0.16		3.0		-999.0		dB
+AVG POWER			PASS		-2.24		10.0		-6.0		dB
+DELTA F1 AVG			PASS		250.01		275.0		225.0		KHz
+99.9% DELTA F2 MAX >= 185KHz	PASS		100.00		100.0		99.9		%
+DELTA F2 F1 RATIO		PASS		0.95		999.0		0.8		NA
+CARRIER DRIFT			PASS		0.14		50.0		-50.0		KHz
+CARRIER FREQ OFFSET		PASS		3.97		150.0		-150.0		KHz
+IN BAND EMISSION L5		PASS		-69.36		-30.0		-999.0		dBm
+IN BAND EMISSION L4		PASS		-67.70		-30.0		-999.0		dBm
+IN BAND EMISSION L3		PASS		-64.77		-30.0		-999.0		dBm
+IN BAND EMISSION L2		PASS		-55.52		-20.0		-999.0		dBm
+IN BAND EMISSION L1		PASS		-22.07		999.0		-999.0		dBm
+IN BAND EMISSION		PASS		-2.13		999.0		-999.0		dBm
+IN BAND EMISSION U1		PASS		-21.59		999.0		-999.0		dBm
+IN BAND EMISSION U2		PASS		-56.44		-20.0		-999.0		dBm
+IN BAND EMISSION U3		PASS		-65.82		-30.0		-999.0		dBm
+IN BAND EMISSION U4		PASS		-69.17		-30.0		-999.0		dBm
+IN BAND EMISSION U5		PASS		-70.22		-30.0		-999.0		dBm
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.0 (s)
+
+
+85. AUTO_BT_BLE_TX_CH039_ANT1 (2480 MHz) (ALV : ON) 				
+------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+PEAK TO AVG			PASS		0.19		3.0		-999.0		dB
+AVG POWER			PASS		-3.12		10.0		-6.0		dB
+DELTA F1 AVG			PASS		249.98		275.0		225.0		KHz
+99.9% DELTA F2 MAX >= 185KHz	PASS		100.00		100.0		99.9		%
+DELTA F2 F1 RATIO		PASS		0.95		999.0		0.8		NA
+CARRIER DRIFT			PASS		-0.07		50.0		-50.0		KHz
+CARRIER FREQ OFFSET		PASS		3.77		150.0		-150.0		KHz
+IN BAND EMISSION L5		PASS		-70.38		-30.0		-999.0		dBm
+IN BAND EMISSION L4		PASS		-68.96		-30.0		-999.0		dBm
+IN BAND EMISSION L3		PASS		-65.42		-30.0		-999.0		dBm
+IN BAND EMISSION L2		PASS		-55.98		-20.0		-999.0		dBm
+IN BAND EMISSION L1		PASS		-22.87		999.0		-999.0		dBm
+IN BAND EMISSION		PASS		-3.00		999.0		-999.0		dBm
+IN BAND EMISSION U1		PASS		-22.52		999.0		-999.0		dBm
+IN BAND EMISSION U2		PASS		-58.04		-20.0		-999.0		dBm
+IN BAND EMISSION U3		PASS		-68.51		-30.0		-999.0		dBm
+IN BAND EMISSION U4		PASS		-70.85		-30.0		-999.0		dBm
+IN BAND EMISSION U5		PASS		-71.59		-30.0		-999.0		dBm
+------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.0 (s)
+
+
+86. AUTO_BT_DH1_RX_CH000_ANT1 (2402 MHz) 					WF : Engine/MV887040A_DH1
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+BER @ -80.0 dBm			PASS		0.00%		0.1		NA
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.9 (s)
+
+
+87. AUTO_BT_DH1_RX_CH039_ANT1 (2441 MHz) 					WF : Engine/MV887040A_DH1
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+BER @ -80.0 dBm			PASS		0.00%		0.1		NA
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.9 (s)
+
+
+88. AUTO_BT_DH1_RX_CH078_ANT1 (2480 MHz) 					WF : Engine/MV887040A_DH1
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+BER @ -80.0 dBm			PASS		0.00%		0.1		NA
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.9 (s)
+
+
+89. AUTO_BT_2DH5_RX_CH000_ANT1 (2402 MHz) 					WF : Engine/MV887040A_2-DH5
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+BER @ -88.0 dBm			PASS		0.00%		0.1		NA
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 3.1 (s)
+
+
+90. AUTO_BT_2DH5_RX_CH039_ANT1 (2441 MHz) 					WF : Engine/MV887040A_2-DH5
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+BER @ -88.0 dBm			PASS		0.00%		0.1		NA
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 3.1 (s)
+
+
+91. AUTO_BT_2DH5_RX_CH078_ANT1 (2480 MHz) 					WF : Engine/MV887040A_2-DH5
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+BER @ -88.0 dBm			PASS		0.00%		0.1		NA
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 3.2 (s)
+
+
+92. AUTO_BT_3DH5_RX_CH000_ANT1 (2402 MHz) 					WF : Engine/MV887040A_3-DH5
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+BER @ -83.0 dBm			PASS		0.01%		0.1		NA
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 3.1 (s)
+
+
+93. AUTO_BT_3DH5_RX_CH039_ANT1 (2441 MHz) 					WF : Engine/MV887040A_3-DH5
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+BER @ -83.0 dBm			PASS		0.00%		0.1		NA
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 3.2 (s)
+
+
+94. AUTO_BT_3DH5_RX_CH078_ANT1 (2480 MHz) 					WF : Engine/MV887040A_3-DH5
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+BER @ -83.0 dBm			PASS		0.01%		0.1		NA
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 3.1 (s)
+
+
+95. AUTO_BT_BLE_RX_CH000_ANT1 (2402 MHz) 					WF : Engine/MV887040A_BLE
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+FER @ -88.0 dBm			PASS		0.0%		1.0		NA		500 / 500
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.4 (s)
+
+
+96. AUTO_BT_BLE_RX_CH019_ANT1 (2440 MHz) 					WF : Engine/MV887040A_BLE
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+FER @ -88.0 dBm			PASS		0.0%		1.0		NA		500 / 500
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.3 (s)
+
+
+97. AUTO_BT_BLE_RX_CH039_ANT1 (2480 MHz) 					WF : Engine/MV887040A_BLE
+----------------------------------------------------------------------------------------------------------
+ITEM				JUDGEMENT	VALUE		UP-LIMIT	LOW-LIMIT	REMARK
+FER @ -88.0 dBm			PASS		0.0%		1.0		NA		500 / 500
+----------------------------------------------------------------------------------------------------------
+Hint : None
+Time : 1.4 (s)
+
+
+BT DEVICE (CP1)
+-----------------------------------------
+ITEM				JUDGEMENT
+CLOSE BEGIN			PASS
+CLOSE END			PASS
+-----------------------------------------
+Time : 0.2 (s)
+
+
+CP API: DUT_Interface_Off (CP1)
+-----------------------------------------
+ITEM				JUDGEMENT
+RUN BEGIN			PASS
+RUN END				PASS
+-----------------------------------------
+Time : 1.0 (s)
+
+
+Measurement time :	155.1 (s)
+Judgement : 		PASS
+Failed Item Count :	0
+Failed Code : 		
+Failed Description : 	
+Error Description : 	
