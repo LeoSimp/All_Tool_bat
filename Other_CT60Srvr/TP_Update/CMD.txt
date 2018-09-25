@@ -1,0 +1,26 @@
+adb root
+adb remount
+
+adb push ct60_maxtouch_v2.0.03.fw /vendor/firmware/ct60_maxtouch_v2.0.03.fw
+adb push Honeywell_CT60_GP_640U_FW2.0.03_NormalMode_AE000_20180314.raw /vendor/firmware/ct60_mxt640u.raw
+adb push Honeywell_CT60_GP_640U_FW2.0.03_AE001_StylusMode_20180313.raw /vendor/firmware/ct60_mxt640u_stylus.raw
+adb push Honeywell_CT60_GP_640U_FW2.0.03_AE002_GloveMode_20180322.raw /vendor/firmware/ct60_mxt640u_glove.raw
+adb push Honeywell_CT60_GP_640U_FW2.0.03_AE003_FingerMode_20180322.raw /vendor/firmware/ct60_mxt640u_finger.raw
+
+adb shell "echo ct60_mxt640u.raw > /sys/bus/i2c/drivers/atmel_maxtouch_ts/4-004a/cfg_name"
+adb shell "echo ct60_maxtouch_v2.0.03.fw > /sys/bus/i2c/drivers/atmel_maxtouch_ts/4-004a/update_fw"
+
+rem check current cfg/fw version
+rem adb shell "cat /sys/bus/i2c/drivers/atmel_maxtouch_ts/4-004a/cfg_version"
+rem adb shell "cat /sys/bus/i2c/drivers/atmel_maxtouch_ts/4-004a/fw_version"
+
+rem if the cfg mode is 0.0.0.0 please execute below commands
+rem adb shell "echo ct60_mxt640u.raw > /sys/bus/i2c/drivers/atmel_maxtouch_ts/4-004a/force_update_cfg"
+
+rem adb shell dmesg | find "atmel_maxtouch_ts" | find "controller version"
+rem downgrade TP FW
+rem adb shell "echo ct60_mxt640u.raw > /sys/bus/i2c/drivers/atmel_maxtouch_ts/4-004a/cfg_name"
+rem adb shell "echo ct60_maxtouch_v2.0.01.fw > /sys/bus/i2c/drivers/atmel_maxtouch_ts/4-004a/update_fw"
+
+
+
