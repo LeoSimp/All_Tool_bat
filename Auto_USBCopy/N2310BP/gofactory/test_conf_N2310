@@ -1,0 +1,57 @@
+mddisk="/dev/md0"
+thecus_hwm="/proc/hwm"
+ETHTOOL="/sbin/ethtool"
+usb2_0_count=2
+usb3_0_count=1
+usb20port[1]="2-1"
+usb20port[2]="1-1"
+usb30port[1]="4-1"
+
+function pcba_test_sequence(){
+  echo "BTN_OP 4" > /proc/thecus_io
+  echo "PWR_S 2" > /proc/thecus_io
+  echo "PWR_LED 2" > /proc/thecus_io
+  echo "Busy 2" > /proc/thecus_io
+  echo "Fail 2" > /proc/thecus_io
+  echo "U_LED 2" > /proc/thecus_io
+  echo "U_LED 2" >/proc/thecus_io
+  echo "UF_LED 2" >/proc/thecus_io
+  echo "SD_LED 2" >/proc/thecus_io
+  echo "SDF_LED 2" >/proc/thecus_io
+  echo "LOGO1_LED 2" >/proc/thecus_io
+  echo "LOGO2_LED 2" >/proc/thecus_io
+  /app/gofactory/mon_pwbtn.sh &
+  sleep 1
+#  check_wan_connect
+#  check_wan_giga
+  disk_check
+# nas_set_time
+# led_test
+#  check_usb_number
+}
+
+function burning_test_sequence(){
+  echo "BTN_OP 4" > /proc/thecus_io
+  echo "PWR_S 2" > /proc/thecus_io
+  sleep 10
+  #check_dual_dom
+  check_memtester
+  check_giga
+  check_network
+  network_loading
+  check_disk
+  create_raid1
+  test_net2280
+}
+
+function oqa_test_sequence(){
+  echo "BTN_OP 4" > /proc/thecus_io
+  echo "PWR_S 2" > /proc/thecus_io
+  sleep 1
+  
+  check_wan_connect
+  check_wan_giga
+  disk_check
+# check_delay_time
+  check_usb_number
+}

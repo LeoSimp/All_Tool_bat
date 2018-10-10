@@ -4,7 +4,7 @@ set Model=%1
 set SN=%2
 set BKDIR=SYS_Fuse_QPST
 
-call :Mapstart Q: \\10.5.42.8\QCN administrator usi_2010
+call :Mapstart Q: \\10.5.42.30\QCN administrator usi_2010
 set QPST_LogPath=Q:\%Model%_Log\
 rem set QPST_LogPath=E:\%Model%_Log\
 if not exist %QPST_LogPath% (set errorMsg="not exist %QPST_LogPath%" && goto fail)

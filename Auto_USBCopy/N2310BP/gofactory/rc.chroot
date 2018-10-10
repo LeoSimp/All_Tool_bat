@@ -1,0 +1,56 @@
+#!/bin/sh
+init_env(){
+	BASEDIR=`readlink -f $0 | xargs dirname` 
+	source $BASEDIR/functions
+	# Since factory_test.sh is simply called without arguments,
+	# the only way to tell which test stage (burn in or pcba )
+	# is by test.conf; Then, we can know which test suite to be 
+	# applied this time.
+	source $BASEDIR/test_stage.conf
+	TEST_SUITE=$BASEDIR/$TEST.conf
+	
+	## Get IP from Factory Server
+	VERSION=2.0.1
+	WORKPATH="/etc/gofactory"
+	TMPPATH="/tmp"
+	FUDHCP="fudhcp_script.sh"
+	DWANIP="172.168.1.100"
+	DLANIP="172.168.2.254"
+	FSCRIPT="factory.sh"
+	FSCRIPTURL="factory_script.php"
+	TRYTIME=20
+	MODULE_NAME="Factory_v2"
+	OS6_factory_path="/mnt2/gofactory"
+	
+	FAIL=0
+	
+	MODELNAME=`awk '/^MODELNAME/{print $2}' /proc/thecus_io`
+	MBTYPE=`awk '/^MBTYPE/{print $2}' /proc/thecus_io`
+	MBTYPE_MAJOR=`echo $MBTYPE | head -c 2`
+	
+	export PATH=/opt/bin:/usr/bin:${WORKPATH}:$PATH
+	WGET=wget
+	
+	if [ -d "${OS6_factory_path}" ];then
+	    cd /
+	    cp /mnt2/nas_img-tools* /       
+	    rpm2cpio /nas_img-tools*.rpm | cpio -div
+	fi
+        if [ "TYPE" == "OQA" ]; then
+            rpm -i /etc/gofactory/alsa-utils-1.0.26-1.fc16.i686.rpm
+            rpm -i /etc/gofactory/alsa-lib-1.0.26-1.fc16.i686.rpm
+        fi
+              
+}
+
+ 
+main(){
+	local func
+	for func in `awk '!/^#/ {if($2=="yes"){print $1}}' $TEST_SUITE`;do
+		echo "Doing $func . . ."
+		$func
+	done
+}
+
+init_env
+main	

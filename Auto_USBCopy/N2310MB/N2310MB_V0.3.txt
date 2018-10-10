@@ -1,0 +1,3 @@
+1. Based on v0.2, add Uboot version test.
+2. Remove button test.
+
